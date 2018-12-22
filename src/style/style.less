@@ -1,0 +1,53 @@
+@import './md.css';
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  color: #555;
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+li {
+  list-style: none;
+}
+
+// 向下的动画
+@keyframes down {
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+// 中间内容部分距离底部的距离
+main {
+  padding-bottom: 100px;
+}
+.main-inner {
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  min-width: 350px;
+}
+.post-body {
+  font-family: 'Roboto Slab', 'Roboto Slab', 'PingFang SC', 'Microsoft YaHei',
+    sans-serif;
+  color: #555;
+}
+@media screen and(max-width:768px) {
+  .main-inner {
+    width: 94%;
+  }
+}
+
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+}
