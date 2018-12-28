@@ -10,6 +10,9 @@
         <span>Carol.All Rights Reserved</span>
       </div>
       <div class="footer-inner">
+        <span>鄂ICP备18031517号</span>
+      </div>
+      <div class="footer-inner">
       <span id="busuanzi_container_site_pv">本站总访问量
         <span id="busuanzi_value_site_pv"></span>次
       </span>
